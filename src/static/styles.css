@@ -158,8 +158,8 @@ footer {
 
 .participants-list {
   margin-top: 8px;
-  padding-left: 20px;
-  list-style: disc;
+  padding-left: 0;
+  list-style: none;
 }
 
 .participant-item {
@@ -167,6 +167,18 @@ footer {
   color: #555;
   font-size: 13px;
   word-break: break-word;
+}
+
+.remove-btn {
+  margin-left: 8px;
+  background: transparent;
+  border: none;
+  color: #c62828;
+  cursor: pointer;
+  font-size: 14px;
+}
+.remove-btn:hover {
+  color: #b71c1c;
 }
 
 /* Small hint when no participants */
